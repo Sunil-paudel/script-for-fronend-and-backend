@@ -1,0 +1,35 @@
+for backend :
+Usage
+
+1. Set your environment variables (or edit .env file):
+
+export MONGO_USER='your_username'
+export MONGO_PASS='your_password'
+
+
+2 ake the script executable:
+
+chmod +x flasksetup.sh
+
+
+3. Run it:
+
+./setup.sh
+
+
+✅ Result:
+
+my_app/ project folder with db/ separation
+
+All requested packages installed
+
+requirements.txt generated
+
+.env placeholder for MongoDB credentials
+
+Fully functional app.py to test MongoDB connection
+
+
+front end 
+chmod +x nextsetup.sh
+./nextsetup.sh
